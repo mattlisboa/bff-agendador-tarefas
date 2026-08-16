@@ -1,4 +1,4 @@
-package com.matheus.bffagendadortarefas.insfrastructure.exceptions;
+package com.matheus.bffagendadortarefas.infrastructure.exceptions;
 
 
 

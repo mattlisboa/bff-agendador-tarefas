@@ -5,7 +5,7 @@ import com.matheus.bffagendadortarefas.business.TarefasService;
 import com.matheus.bffagendadortarefas.business.dto.in.TarefasDTORequest;
 import com.matheus.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
 import com.matheus.bffagendadortarefas.business.enums.StatusNotificacaoEnum;
-import com.matheus.bffagendadortarefas.insfrastructure.security.SecurityConfig;
+import com.matheus.bffagendadortarefas.infrastructure.security.SecurityConfig;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

@@ -1,4 +1,4 @@
-package com.matheus.bffagendadortarefas.insfrastructure.client;
+package com.matheus.bffagendadortarefas.infrastructure.client;
 
 
 import com.matheus.bffagendadortarefas.business.dto.in.TarefasDTORequest;
