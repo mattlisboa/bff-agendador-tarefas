@@ -8,7 +8,6 @@ import com.matheus.bffagendadortarefas.business.dto.out.EnderecoDTOResponse;
 import com.matheus.bffagendadortarefas.business.dto.out.TelefoneDTOResponse;
 import com.matheus.bffagendadortarefas.business.dto.out.UsuarioDTOResponse;
 import com.matheus.bffagendadortarefas.insfrastructure.client.UsuarioClient;
-
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
