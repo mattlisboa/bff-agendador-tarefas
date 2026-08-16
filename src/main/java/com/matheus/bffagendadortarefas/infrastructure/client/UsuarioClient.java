@@ -1,4 +1,4 @@
-package com.matheus.bffagendadortarefas.insfrastructure.client;
+package com.matheus.bffagendadortarefas.infrastructure.client;
 
 
 import com.matheus.bffagendadortarefas.business.dto.in.EnderecoDTORequest;
@@ -8,6 +8,7 @@ import com.matheus.bffagendadortarefas.business.dto.in.UsuarioDTORequest;
 import com.matheus.bffagendadortarefas.business.dto.out.EnderecoDTOResponse;
 import com.matheus.bffagendadortarefas.business.dto.out.TelefoneDTOResponse;
 import com.matheus.bffagendadortarefas.business.dto.out.UsuarioDTOResponse;
+import com.matheus.bffagendadortarefas.business.dto.out.ViaCepDTOResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
@@ -49,4 +50,7 @@ public interface UsuarioClient {
     @PostMapping("/telefone")
     TelefoneDTOResponse cadastraTelefone(@RequestBody TelefoneDTORequest dto,
                                          @RequestHeader("Authorization") String token);
+
+    @GetMapping("/endereco/{cep}")
+    ViaCepDTOResponse buscarDadosCep(@PathVariable("cep") String cep);
 }

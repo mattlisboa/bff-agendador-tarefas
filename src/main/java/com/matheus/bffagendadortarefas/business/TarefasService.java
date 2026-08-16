@@ -3,7 +3,7 @@ package com.matheus.bffagendadortarefas.business;
 import com.matheus.bffagendadortarefas.business.dto.in.TarefasDTORequest;
 import com.matheus.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
 import com.matheus.bffagendadortarefas.business.enums.StatusNotificacaoEnum;
-import com.matheus.bffagendadortarefas.insfrastructure.client.TarefasClient;
+import com.matheus.bffagendadortarefas.infrastructure.client.TarefasClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

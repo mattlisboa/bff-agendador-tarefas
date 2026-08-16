@@ -1,7 +1,7 @@
 package com.matheus.bffagendadortarefas.business;
 
 import com.matheus.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
-import com.matheus.bffagendadortarefas.insfrastructure.client.EmailClient;
+import com.matheus.bffagendadortarefas.infrastructure.client.EmailClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
